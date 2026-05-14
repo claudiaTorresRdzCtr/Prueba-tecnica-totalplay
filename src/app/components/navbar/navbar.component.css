@@ -1,0 +1,21 @@
+.navbarTop {
+  background-color: black;
+  padding: auto;
+}
+
+.img-logo{
+  width: 130px;
+  height: auto;
+  padding-left: 20px;
+}
+
+.dropdown-ciudad{
+  padding-right: 20px;
+  color: white;
+}
+
+.cuenta{
+ padding-right: 20px;
+  color: white;
+}
+

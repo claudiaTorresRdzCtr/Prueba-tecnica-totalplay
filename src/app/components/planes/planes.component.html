@@ -1,0 +1,56 @@
+<div class="container-fluid content">
+    <div class="row">
+        <div class="col-12 texto-content">
+            <h1> Nuestros planes mas vendidos</h1>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="col" *ngFor="let plan of planes">
+            <div class="card">
+                <div class="card-header texto-card">
+                    <h1>{{plan.megas}} Megas</h1>
+                    <p> {{plan.subtitulo}}</p>
+                </div>
+                <img src="{{plan.imagen}}" class="card-img-top img-plan" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{plan.beneficios}}</p>
+                    <p class="card-text">Pronto Pago: ${{plan.pago}}</p>
+                </div>
+                <button type="button" class="btn btn-primary">Me interesa</button>
+            </div>
+        </div>
+        <!-- <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h3>250 Megas</h3>
+                    <p> Tv + Internet simétrico</p>
+                </div>
+                <img src="images/plan.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h3>350 Megas</h3>
+                    <p> Tv + Internet simétrico</p>
+                </div>
+                <img src="images/plan.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content.</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="button">
+        <button type="button" class="btn btn-primary"> Explorar mas paquetes </button>
+    </div>
+</div>

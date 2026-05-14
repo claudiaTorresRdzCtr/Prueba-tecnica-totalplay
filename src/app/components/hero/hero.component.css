@@ -1,0 +1,44 @@
+@media screen and (max-width: 1440px) {
+  .content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .btn-planes {
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+
+  .text-publicidad {
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  .img-publi {
+    width: 600px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .btn-planes {
+    border-radius: 30px;
+    padding: 5px 10px;
+  }
+
+  .text-publicidad {
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  .img-publi {
+    width: 300px;
+  }
+}

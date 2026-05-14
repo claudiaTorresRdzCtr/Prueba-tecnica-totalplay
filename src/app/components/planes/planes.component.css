@@ -1,0 +1,62 @@
+@media screen and (max-width: 1440px) {
+  .content {
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .texto-content {
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .button {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .texto-card {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .img-plan {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 375px) { 
+  .content {
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+
+  .texto-content {
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .button {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .texto-card {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .img-plan {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+  }
+}
